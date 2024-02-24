@@ -3,10 +3,12 @@ Blots is an experimental project created to explore the capabilities of Jetpack 
 ## Overview
 
 <details>
-<summary>Example(~4MB)</summary>
+<summary>Example (~4MB)</summary>
 <br>
-![GIF](https://github.com/viktordolgalyov/Blots/blob/main/animation_demo.gif)
+  
+![GIF](animation_demo.gif)
 </details>
+
 
 The core of the Blots animation lies in its algorithmic approach to drawing and animating Bezier curves. Each blot is a composition of multiple cubic Bezier curves, calculated to form a closed, organic shape. Animations are applied to the properties of these curves, as well as the overall blot, creating a lively, ever-changing canvas of shapes.
 
