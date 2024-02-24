@@ -1,10 +1,14 @@
-# Blots Animation Demo
-
-This project is a fun exploration into the world of animations with Jetpack Compose, focusing on the creation and animation of blots that dynamically change based on user input. It's a showcase of custom drawing, animation, and state management in Compose, aimed at creating visually appealing patterns and motions.
+Blots is an experimental project created to explore the capabilities of Jetpack Compose in rendering complex animations and shapes. This project focuses on generating dynamic, animated blots using Bezier curves and controlling their behavior through a user interface.
 
 ## Overview
 
-The heart of this demo is the animation of blots—abstract shapes that move, scale, and transform. Each blot is drawn using Bezier curves, providing a smooth and organic feel. The animation is controlled through sliders, allowing real-time adjustments of various parameters such as the count, size, and dynamics of the blots.
+<details>
+<summary>Example(~4MB)</summary>
+<br>
+![GIF](https://github.com/viktordolgalyov/Blots/animation_demo.gif)
+</details>
+
+The core of the Blots animation lies in its algorithmic approach to drawing and animating Bezier curves. Each blot is a composition of multiple cubic Bezier curves, calculated to form a closed, organic shape. Animations are applied to the properties of these curves, as well as the overall blot, creating a lively, ever-changing canvas of shapes.
 
 ## Algorithm and Drawing
 
@@ -23,17 +27,12 @@ To explore this project, simply clone the repository and open it in Android Stud
 git clone https://github.com/viktordolgalyov/blots.git
 ```
 
-Build the project in Android Studio and run it on an emulator or physical device to see the animation in action.
+## Key Features
 
-## Exploring the Code
-
-The code is structured around Compose's composable functions, with a strong emphasis on modular design and reusability. Key components include:
-
-- `BlotView`: Responsible for drawing a single blot.
-- `BlotsView`: Manages the collection of blots and orchestrates their animation.
-- `BlotsControls`: Provides UI controls for adjusting animation parameters.
-
-Dive into the code to see how Compose's powerful features are used to create complex animations with minimal boilerplate.
+- `Dynamic Blot Generation`: Utilizes Bezier curves to create unique, animated blot shapes.
+- `Interactive Controls`: Offers sliders to adjust the number of blots, their size, curvature, and animation speed dynamically.
+- `Responsive Layout`: Adapts to both portrait and landscape orientations, showcasing different layout strategies in Jetpack Compose.
+- `Animation Exploration`: Demonstrates the use of Animatable and custom animation specs to animate properties like scale, opacity, and rotation.
 
 ## Contribution
 

@@ -29,12 +29,13 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+}
 
-    @Composable
-    private fun AppContainer(modifier: Modifier = Modifier) {
-        val insetsPadding = WindowInsets.systemGestures.asPaddingValues()
-        Scaffold(modifier = Modifier.padding(insetsPadding)) {
-            BlotsApp(modifier.padding(it))
-        }
+
+@Composable
+private fun AppContainer(modifier: Modifier = Modifier) {
+    val insetsPadding = WindowInsets.systemGestures.asPaddingValues()
+    Scaffold(modifier = Modifier.padding(insetsPadding)) {
+        BlotsApp(modifier.padding(it))
     }
 }
