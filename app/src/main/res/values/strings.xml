@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blots</string>
+    <string name="template_label_max_blot_radius_change">Max Blot Radius Change: %1$sdp</string>
+    <string name="template_label_blot_curve_count">Blot Curve Count: %1$s</string>
+    <string name="template_label_max_on_screen">Max On Screen: %1$s</string>
+    <string name="template_label_blot_count">Blot Count: %1$s</string>
+</resources>
